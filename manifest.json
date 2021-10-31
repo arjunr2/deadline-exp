@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "exec": "task1.o",
+      "runtime": "300000",
+      "deadline": "3000000",
+      "period": "3000000",
+      "affinity": "0"
+    },
+    {
+      "exec": "task2.o",
+      "runtime": "300000",
+      "deadline": "3000000",
+      "period": "3000000",
+      "affinity": "1"
+    },
+    {
+      "exec": "task3.o",
+      "runtime": "500000",
+      "deadline": "2000000",
+      "period": "2000000",
+      "affinity": "0"
+    }
+  ]
+}
